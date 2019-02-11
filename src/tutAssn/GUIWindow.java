@@ -77,7 +77,7 @@ public class GUIWindow {
 				
 				int numValue2 = Integer.parseInt(textPane.getText());
 				
-				int numAnswer = numValue1 + numValue2;
+				int numAnswer = numValue1 / numValue2;
 				
 				txtpnAnswer.setText(Integer.toString(numAnswer));
 				
